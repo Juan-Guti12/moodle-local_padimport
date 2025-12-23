@@ -1,0 +1,18 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs/temp
+*.log
+tmp/
+.temp/
+.cache/
+
+# Composer / vendor (si aplica)
+vendor/
+composer.lock

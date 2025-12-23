@@ -28,7 +28,17 @@ Plugin \*\*local\*\* para Moodle que importa un PAD en formato \*\*Excel\*\* y c
 
 \- El servidor debe contar con las dependencias estándar de Moodle (el plugin usa el autoload de `vendor/` del propio Moodle).
 
+\- Moodle debe tener instalado PhpSpreadsheet vía Composer (en el vendor/ del Moodle raíz).
 
+\- Para que PhpSpreadsheet funcione bien suelen ser necesarias:
+
+php-zip (muy importante)
+
+php-xml
+
+php-mbstring
+
+Si falta zip, muchas veces falla la lectura de Excel.
 
 \## Instalación
 
